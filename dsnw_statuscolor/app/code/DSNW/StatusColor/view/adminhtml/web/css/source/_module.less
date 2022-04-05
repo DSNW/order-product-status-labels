@@ -1,0 +1,46 @@
+@import '_colors.less';
+
+.page-layout-admin-1column {
+    .color-pending,
+    .color-processing,
+    .color-complete,
+    .color-closed,
+    .color-default {
+        display: block;
+        font-weight: bold;
+        padding: 3px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    .color-pending {
+        background: @bg-pending;
+        border: 1px solid @color-pending;
+        color: @color-pending;
+    }
+
+    .color-processing {
+        background: @bg-processing;
+        border: 1px solid @color-processing;
+        color: @color-processing;
+    }
+
+    .color-complete {
+        background: @bg-complete;
+        border: 1px solid @color-complete;
+        color: @color-complete;
+    }
+
+    .color-closed {
+        background: @bg-closed;
+        border: 1px solid @color-closed;
+        color: @color-closed;
+    }
+
+    .color-default {
+        background: @bg-default;
+        border: 1px solid @color-default;
+        color: @color-default;
+    }
+}
